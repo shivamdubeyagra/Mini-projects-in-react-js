@@ -1,6 +1,7 @@
 
 import './App.css'
 import Accordian from './components/accordian'
+import ModalTest from './components/custom-model-popup/modal-test.jsx'
 import TabTest from './components/custom-tabs/tab-test.jsx'
 import ImageSlider from './components/image-slider'
 import LightDarkMode from './components/light-dark-mode/index.jsx'
@@ -26,7 +27,8 @@ function App() {
     {/* <QRCodeGenerator/> */}
     {/* <LightDarkMode/> */}
     {/* <ScrollIndicator url={`https://dummyjson.com/products?limit=100`}/> */}
-    <TabTest/>  
+    {/* <TabTest/>   */}
+    <ModalTest/>
     </>
   )
 }
