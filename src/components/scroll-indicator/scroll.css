@@ -15,5 +15,5 @@
 .current-progress{
     height: 10px;
     background: #8b02b5;
-    width: 0%;
+    /* width: 0%; */
 }
