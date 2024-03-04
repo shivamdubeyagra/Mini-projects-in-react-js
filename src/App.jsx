@@ -3,6 +3,7 @@ import './App.css'
 import Accordian from './components/accordian'
 import ModalTest from './components/custom-model-popup/modal-test.jsx'
 import TabTest from './components/custom-tabs/tab-test.jsx'
+import GitHubProfileFinder from './components/github-profile-finder/index.jsx'
 import ImageSlider from './components/image-slider'
 import LightDarkMode from './components/light-dark-mode/index.jsx'
 import LoadMoreData from './components/load-more-data'
@@ -28,7 +29,8 @@ function App() {
     {/* <LightDarkMode/> */}
     {/* <ScrollIndicator url={`https://dummyjson.com/products?limit=100`}/> */}
     {/* <TabTest/>   */}
-    <ModalTest/>
+    {/* <ModalTest/> */}
+    <GitHubProfileFinder/>
     </>
   )
 }
