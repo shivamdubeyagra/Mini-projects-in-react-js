@@ -12,6 +12,7 @@ import RandomColor from './components/random-color'
 import ScrollIndicator from './components/scroll-indicator/index.jsx'
 import SearchAutoComplete from './components/search-auto-completewithapi/index.jsx'
 import StarRating from './components/star-rating'
+import TicTacToe from './components/tic-tac-toe/index.jsx'
 import TreeView from './components/tree-view'
 import menus from "./components/tree-view/data.js"
 
@@ -32,7 +33,8 @@ function App() {
     {/* <TabTest/>   */}
     {/* <ModalTest/> */}
     {/* <GitHubProfileFinder/> */}
-    <SearchAutoComplete/>
+    {/* <SearchAutoComplete/> */}
+    <TicTacToe/>
     </>
   )
 }
